@@ -158,11 +158,11 @@
       align-items: center;
       justify-content: flex-start;
       text-align: center;
-      padding: 80px clamp(1.5rem, 6vw, 6rem) 80px;
+      padding: 68px clamp(1.5rem, 6vw, 6rem) 0;
       position: relative;
       overflow: hidden;
     }
-    #inicio .hero-stats { margin-top: auto; }
+    #inicio .hero-stats { margin-top: auto; margin-bottom: 80px; }
     .hero-badge {
       display: inline-flex;
       align-items: center;
