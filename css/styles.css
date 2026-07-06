@@ -818,7 +818,7 @@
       transition: left .12s ease-out, top .12s ease-out;
       pointer-events: none;
     }
-    #inicio > *:not(.hero-mouse-glow) { position: relative; z-index: 1; }
+    #inicio > *:not(.hero-mouse-glow):not(.orbit) { position: relative; z-index: 1; }
     .stat-num { display: inline-block; }
     .service-card { transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition); }
     .service-card:hover { transform: translateY(-6px) scale(1.01); }
