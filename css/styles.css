@@ -27,7 +27,7 @@
       --font-body:    'DM Sans', sans-serif;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
+    html { background: var(--bg); scroll-behavior: smooth; }
     body {
       background: var(--bg);
       color: var(--text);
@@ -35,6 +35,7 @@
       font-size: 16px;
       line-height: 1.65;
       overflow-x: hidden;
+      min-height: 100vh;
     }
     a { color: inherit; text-decoration: none; }
     img { display: block; max-width: 100%; }
